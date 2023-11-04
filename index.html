@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="ko">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>손학종 & 김나영의 모바일 청첩장입니다.</title>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>손학종 & 김나영의 모바일 청첩장입니다.</title>
 
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
-    <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-gothic.css" rel="stylesheet">
-    <link href="https://hangeul.pstatic.net/hangeul_static/css/maru-buri.css" rel="stylesheet">    
+	<link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-gothic.css" rel="stylesheet">
+	<link href="https://hangeul.pstatic.net/hangeul_static/css/maru-buri.css" rel="stylesheet">    
 
 
 	<script type='text/javascript' src='unitegallery/js/jquery-11.0.min.js'></script>	
@@ -39,334 +39,333 @@
 	<link rel='stylesheet' href='unitegallery/css/unite-gallery.css' type='text/css' />
 	
 	<script type='text/javascript' src='unitegallery/themes/tiles/ug-theme-tiles.js'></script>
-    
-	<link rel='stylesheet' 		  href='unitegallery/themes/default/ug-theme-default.css' type='text/css' />
-
 	
+	<link rel='stylesheet' href='unitegallery/themes/default/ug-theme-default.css' type='text/css' />
 
-  </head>
-  <body>
-    <div class="wrap">
-        <div id="main">
+</head>
 
-            <img id="main-img" src="https://marriage-photo.s3.ap-northeast-2.amazonaws.com/images/main.jpg" class="img-fluid" alt="메인">
+<body>
+	<div class="wrap">
+		<div id="main">
 
-            <p id="main-invite" class="text-center">초대합니다.</p>
-            <p id="main-name" class="text-center">손학종 | 김나영</p>
+			<img id="main-img" src="https://marriage-photo.s3.ap-northeast-2.amazonaws.com/images/main.jpg" class="img-fluid" alt="메인">
 
-            <p id="main-datetime" class="text-center">2023년 5월 20일. 토요일 오후 1시</p>
-            <p id="main-location" class="text-center">분당앤스퀘어 4층 컨벤션홀</p>
-        </div>
+			<p id="main-invite" class="text-center">초대합니다.</p>
+			<p id="main-name" class="text-center">손학종 | 김나영</p>
 
-        <!-- <div class="div-line"></div> -->
-        
-        <div id="message">
-            <div class="text-center" id="message-text">
-                <img src="https://marriage-photo.s3.ap-northeast-2.amazonaws.com/images/c.png">
-                <p>같은 곳을 출발해</p>
-                <p>각자의 길을 걸어온 두 사람이</p>
-                <p>이제 손잡고 함께 나아가려 합니다.</p>
-                <p>오셔서 새 출발의 자리를 빛내어 주십시오.</p>
-                <p class="newline"></p>
-                <p>손관철 김희순의 장남 <span class="text-bold">학종</span></p>
-                <p>김인규 유애자의 차녀 <span class="text-bold">나영</span></p>
-            </div>
-        </div>
+			<p id="main-datetime" class="text-center">2023년 5월 20일. 토요일 오후 1시</p>
+			<p id="main-location" class="text-center">분당앤스퀘어 4층 컨벤션홀</p>
+		</div>
 
-        <!-- <div class="div-line"></div> -->
-        
-        <div id="how-to-come">
-            <div class="part-title text-center">
-                <p>오시는 길</p>
-                <p>LOCATION</p>
-            </div>
-            
-            <!-- <img src="imgs/map.jpg" class="img-fluid" alt="지도"> -->
-            <div class="map_wrap">
-                <div id="map" style="width:100%;height:100%;position:relative;overflow:hidden;"></div> 
+		<!-- <div class="div-line"></div> -->
+		
+		<div id="message">
+			<div class="text-center" id="message-text">
+				<img src="https://marriage-photo.s3.ap-northeast-2.amazonaws.com/images/c.png">
+				<p>같은 곳을 출발해</p>
+				<p>각자의 길을 걸어온 두 사람이</p>
+				<p>이제 손잡고 함께 나아가려 합니다.</p>
+				<p>오셔서 새 출발의 자리를 빛내어 주십시오.</p>
+				<p class="newline"></p>
+				<p>손관철 김희순의 장남 <span class="text-bold">학종</span></p>
+				<p>김인규 유애자의 차녀 <span class="text-bold">나영</span></p>
+			</div>
+		</div>
 
-                <!-- 지도 확대, 축소 컨트롤 div 입니다 -->
-                <div class="custom_zoomcontrol radius_border"> 
-                    <span onclick="zoomIn()"><img src="https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/ico_plus.png" alt="확대"></span>  
-                    <span onclick="zoomOut()"><img src="https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/ico_minus.png" alt="축소"></span>
-                </div>
-            </div>
-            <div class="text-center btn-map-group">
-                <span>
-                    <img src="https://marriage-photo.s3.ap-northeast-2.amazonaws.com/images/icon/kmap.webp">
-                    <a type="button" class="btn-map" href="https://place.map.kakao.com/936406406" target="_blank" rel="noopener noreferrer">카카오맵</a>
-                </span>
-                <span>
-                    <img src="https://marriage-photo.s3.ap-northeast-2.amazonaws.com/images/icon/nmap.webp">
-                    <a type="button" class="btn-map" href="https://naver.me/xdIkk34F" target="_blank" rel="noopener noreferrer">네이버지도</a>
-                </span>
-                <span>
-                    <img src="https://marriage-photo.s3.ap-northeast-2.amazonaws.com/images/icon/tmap.webp">
-                    <a type="button" class="btn-map" href="https://surl.tmap.co.kr/98f76658" target="_blank" rel="noopener noreferrer">티맵</a>
-                </span>
-            </div>
+		<!-- <div class="div-line"></div> -->
+		
+		<div id="how-to-come">
+			<div class="part-title text-center">
+				<p>오시는 길</p>
+				<p>LOCATION</p>
+			</div>
+			
+			<!-- <img src="imgs/map.jpg" class="img-fluid" alt="지도"> -->
+			<div class="map_wrap">
+				<div id="map" style="width:100%;height:100%;position:relative;overflow:hidden;"></div> 
 
-            <div id="how-to-come-bus">
-                <div class="sub-sub-title">
-                    <p class="text-center">울산 전세버스 안내</p>
-                    <p class="text-center">(탑승시간)</p>
-                </div>
-                
-                <p><span class="text-bold">6:30</span> 남목주유소 (남목고등학교 옆)</p>
-                <p><span class="text-bold">6:50</span> 삼산 현대백화점 앞 택시승강장</p>
-                <p>-------------</p>
-                <p><span class="text-bold">15:30</span> 결혼식장 -> 울산 출발</p>
-                <p>* 기사님 연락처 : 010 3840 7108</p>
-            </div>
-        
+				<!-- 지도 확대, 축소 컨트롤 div 입니다 -->
+				<div class="custom_zoomcontrol radius_border"> 
+					<span onclick="zoomIn()"><img src="https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/ico_plus.png" alt="확대"></span>  
+					<span onclick="zoomOut()"><img src="https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/ico_minus.png" alt="축소"></span>
+				</div>
+			</div>
+			<div class="text-center btn-map-group">
+				<span>
+					<img src="https://marriage-photo.s3.ap-northeast-2.amazonaws.com/images/icon/kmap.webp">
+					<a type="button" class="btn-map" href="https://place.map.kakao.com/936406406" target="_blank" rel="noopener noreferrer">카카오맵</a>
+				</span>
+				<span>
+					<img src="https://marriage-photo.s3.ap-northeast-2.amazonaws.com/images/icon/nmap.webp">
+					<a type="button" class="btn-map" href="https://naver.me/xdIkk34F" target="_blank" rel="noopener noreferrer">네이버지도</a>
+				</span>
+				<span>
+					<img src="https://marriage-photo.s3.ap-northeast-2.amazonaws.com/images/icon/tmap.webp">
+					<a type="button" class="btn-map" href="https://surl.tmap.co.kr/98f76658" target="_blank" rel="noopener noreferrer">티맵</a>
+				</span>
+			</div>
 
-        </div>
+			<div id="how-to-come-bus">
+				<div class="sub-sub-title">
+					<p class="text-center">울산 전세버스 안내</p>
+					<p class="text-center">(탑승시간)</p>
+				</div>
+				
+				<p><span class="text-bold">6:30</span> 남목주유소 (남목고등학교 옆)</p>
+				<p><span class="text-bold">6:50</span> 삼산 현대백화점 앞 택시승강장</p>
+				<p>-------------</p>
+				<p><span class="text-bold">15:30</span> 결혼식장 -> 울산 출발</p>
+				<p>* 기사님 연락처 : 010 3840 7108</p>
+			</div>
+		
 
-        <div class="div-line"></div>
-        
-        <div id="bank-account" class="text-center">
-            <div class="part-title text-center">
-                <p>연락처</p>
-                <p>CONTACT</p>
-            </div>
+		</div>
 
-            <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#money-hakjong" aria-expanded="false" aria-controls="money-hakjong" onclick="$('#money-nayoung').collapse('hide')">
-                신랑 손학종
-            </button>
+		<div class="div-line"></div>
+		
+		<div id="bank-account" class="text-center">
+			<div class="part-title text-center">
+				<p>연락처</p>
+				<p>CONTACT</p>
+			</div>
 
-            <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#money-nayoung" aria-expanded="false" aria-controls="money-nayoung" onclick="$('#money-hakjong').collapse('hide')">
-                신부 김나영
-            </button>
-            <div class="collapse" id="money-hakjong">
-                
-                <div class="card card-body card-money">
+			<button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#money-hakjong" aria-expanded="false" aria-controls="money-hakjong" onclick="$('#money-nayoung').collapse('hide')">
+				신랑 손학종
+			</button>
 
-                    <a href="tel:01067710314">010 6771 0314</a>
-                    
-                    <p class="text-center">신한은행 110-356-512239 (손학종)</p>
-                    <a type="button" class="btn" onclick="copy_to_clipboard('신한은행 110-356-512239 손학종')">계좌번호 복사하기</a>
-                    <a type="button" class="btn btn-kpay" href="https://qr.kakaopay.com/Ej8I74B7k" target="_blank" rel="noopener noreferrer">카카오페이로 송금하기</a>
-                </div>
-            </div>
-            <div class="collapse" id="money-nayoung">
-                <div class="card card-body card-money">
-                    <a href="tel:01020882322">010 2088 2322</a>
-                    <p class="text-center">신한은행 110-438-721190 (김나영)</p>
-                    <a type="button" class="btn" onclick="copy_to_clipboard('신한은행 110-438-721190 김나영')">계좌번호 복사하기</a>
-                    <a type="button" class="btn btn-kpay" href="https://qr.kakaopay.com/Ej9AachUk" target="_blank" rel="noopener noreferrer">카카오페이로 송금하기</a>
-                </div>
-            </div>
-        </div>
+			<button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#money-nayoung" aria-expanded="false" aria-controls="money-nayoung" onclick="$('#money-hakjong').collapse('hide')">
+				신부 김나영
+			</button>
+			<div class="collapse" id="money-hakjong">
+				
+				<div class="card card-body card-money">
 
-        <div class="div-line"></div>
-        
-        <div id="photo">
-            <div class="part-title text-center">
-                <p>갤러리</p>
-                <p>GALLERY</p>
-            </div>
-            <div id="gallery" style="display:none;">
+					<a href="tel:01067710314">010 6771 0314</a>
+					
+					<p class="text-center">신한은행 110-356-512239 (손학종)</p>
+					<a type="button" class="btn" onclick="copy_to_clipboard('신한은행 110-356-512239 손학종')">계좌번호 복사하기</a>
+					<a type="button" class="btn btn-kpay" href="https://qr.kakaopay.com/Ej8I74B7k" target="_blank" rel="noopener noreferrer">카카오페이로 송금하기</a>
+				</div>
+			</div>
+			<div class="collapse" id="money-nayoung">
+				<div class="card card-body card-money">
+					<a href="tel:01020882322">010 2088 2322</a>
+					<p class="text-center">신한은행 110-438-721190 (김나영)</p>
+					<a type="button" class="btn" onclick="copy_to_clipboard('신한은행 110-438-721190 김나영')">계좌번호 복사하기</a>
+					<a type="button" class="btn btn-kpay" href="https://qr.kakaopay.com/Ej9AachUk" target="_blank" rel="noopener noreferrer">카카오페이로 송금하기</a>
+				</div>
+			</div>
+		</div>
 
-                <img alt="사진 1" src="https://marriage-photo.s3.ap-northeast-2.amazonaws.com/images/gallery/01.jpg">
-                <!-- <img alt="사진 2" src="https://marriage-photo.s3.ap-northeast-2.amazonaws.com/images/gallery/02.jpg"> -->
-                <img alt="사진 2" src="https://marriage-photo.s3.ap-northeast-2.amazonaws.com/images/gallery/03.jpg">
-                <img alt="사진 3" src="https://marriage-photo.s3.ap-northeast-2.amazonaws.com/images/gallery/04.jpg">
-                <img alt="사진 4" src="https://marriage-photo.s3.ap-northeast-2.amazonaws.com/images/gallery/05.jpg">
-                <!-- <img alt="사진 6" src="https://marriage-photo.s3.ap-northeast-2.amazonaws.com/images/gallery/06.jpg"> -->
-                <img alt="사진 5" src="https://marriage-photo.s3.ap-northeast-2.amazonaws.com/images/gallery/07.jpg">
-                <img alt="사진 6" src="https://marriage-photo.s3.ap-northeast-2.amazonaws.com/images/gallery/08.jpg">
-                <img alt="사진 7" src="https://marriage-photo.s3.ap-northeast-2.amazonaws.com/images/gallery/09.jpg">
-                <img alt="사진 8" src="https://marriage-photo.s3.ap-northeast-2.amazonaws.com/images/gallery/10.jpg">
-                <img alt="사진 9" src="https://marriage-photo.s3.ap-northeast-2.amazonaws.com/images/gallery/11.jpg">
-                <!-- <img alt="사진 12" src="https://marriage-photo.s3.ap-northeast-2.amazonaws.com/images/gallery/12.jpg"> -->
-                <img alt="사진 10" src="https://marriage-photo.s3.ap-northeast-2.amazonaws.com/images/gallery/13.jpg">
-                <img alt="사진 11" src="https://marriage-photo.s3.ap-northeast-2.amazonaws.com/images/gallery/14.jpg">
-                
-            </div>
-        </div>
-        
-        <!-- <div class="div-line"></div> -->
-        
-        <div id="comment">
-            <div class="part-title text-center">
-                <p>방명록</p>
-                <p>COMMENT</p>
-            </div>
+		<div class="div-line"></div>
+		
+		<div id="photo">
+			<div class="part-title text-center">
+				<p>갤러리</p>
+				<p>GALLERY</p>
+			</div>
+			<div id="gallery" style="display:none;">
 
-            <div id="comment-list"><div id="comment-119"><p>에이린</p><div><p>아담! 결혼 정말 축하해요~~ 언제나처럼 둘이서 힘든일도 즐거운일도 잘 해나가길 응원할께요! :)</p></div><p>2023-05-20</p></div><div id="comment-118"><p>문챈</p><div><p>우리 나용이 결혼도 생일도 너무 축하해 ❤️</p><p>너가 결국 제일 먼저 가는구나 !!!!!! 예쁜 모습으로 곧 보자 ❤️</p></div><p>2023-05-20</p></div><div id="comment-117"><p>메주</p><div><p>행복하자 나롱아~~ 유부로 이제 보내줄게💍</p></div><p>2023-05-20</p></div><div id="comment-116"><p>주형</p><div><p>결혼 너무너무 축하해 나영아 ❤️ 남편뷴이랑 행복한 신혼생활 즐기고 좋은 일만 가득해!!</p></div><p>2023-05-19</p></div><div id="comment-115"><p>미카</p><div><p>와 아담~! 결혼 진심으로 축하드려요! 두분에게 언제나 행복과 사랑이 가득하기를 기도합니다🙏🏻🌸</p></div><p>2023-05-17</p></div><div id="comment-114"><p>모아나</p><div><p>아담 결혼 진심으로 축하합니다 :) </p></div><p>2023-05-17</p></div><div id="comment-113"><p>닉</p><div><p>아담 결혼 축하해요!!! 행복한 결혼 생활 되기를! </p></div><p>2023-05-17</p></div><div id="comment-112"><p>디온</p><div><p>아담, 신부님 결혼 축하드려요! 행복하세요 :)</p></div><p>2023-05-17</p></div><div id="comment-111"><p>피터</p><div><p>아담 결혼 진심으로 축하드립니닷 ;D</p></div><p>2023-05-17</p></div><div id="comment-110"><p>제라드</p><div><p>결혼 진심으로 축하드립니다!</p></div><p>2023-05-17</p></div><div id="comment-109"><p>브랜든</p><div><p>진심으로 결혼 축하해요 아담!</p></div><p>2023-05-17</p></div><div id="comment-108"><p>제이크</p><div><p>결혼축하해요!!!!!!! 유부남의 세계로 오신걸 환영합니다!!!!</p></div><p>2023-05-17</p></div><div id="comment-107"><p>무키</p><div><p>압도적 축하를 통해 절대적 행복을 기원합니다. 🎊🎊🎊</p></div><p>2023-05-17</p></div><div id="comment-106"><p>쏘이</p><div><p>아담! 결혼축하해요! 행복한 부부 되시길☺️</p></div><p>2023-05-17</p></div><div id="comment-105"><p>테일러</p><div><p>결혼 축하드립니다.</p></div><p>2023-05-17</p></div><div id="comment-104"><p>좐</p><div><p>아담~! 결혼 정말 축하해요!! 행복하고 축복된 가정 이루시길 바래요 :)</p></div><p>2023-05-17</p></div><div id="comment-103"><p>초이</p><div><p>아담 결혼 축하해요!! 행복한 유부 생활하시길~!!! </p></div><p>2023-05-15</p></div><div id="comment-102"><p>제인</p><div><p>아담 결혼 너무너무 축하해요~!!</p></div><p>2023-05-15</p></div><div id="comment-101"><p>송지</p><div><p>너무 축하드려용🥰🥰 결혼식 때 뵈요</p></div><p>2023-05-14</p></div><div id="comment-100"><p>브리</p><div><p>케리 축하드립니다~!!</p></div><p>2023-05-12</p></div><div id="comment-99"><p>석철 손</p><div><p>행복하자</p></div><p>2023-05-10</p></div><div id="comment-98"><p>정우</p><div><p>부럽구만~~ 잘 살아라!</p></div><p>2023-05-08</p></div><div id="comment-97"><p>영준</p><div><p>결혼 축하해, 언제나 행복하길</p></div><p>2023-05-08</p></div><div id="comment-96"><p>대경</p><div><p>사진이 아주 잘나왔구만 ㅎㅎ 축하 축하 </p></div><p>2023-05-02</p></div><div id="comment-95"><p>섭구</p><div><p>나영 축하해. 행복하세요^_^ </p></div><p>2023-04-29</p></div><div id="comment-94"><p>서나</p><div><p>학종쓰 결혼 너무 축하해요!! 세상에서 제일 행복한 신랑 되ㅈㅏ! 예비 아내분과 모든 순간 순간 행복하시길 바래요! 결혼식에서 봬요🥰🥰</p></div><p>2023-04-21</p></div><div id="comment-93"><p>빠정용사</p><div><p>결혼 축하드립니다. 앞으로도 행복하세요. </p></div><p>2023-04-18</p></div><div id="comment-92"><p>케프</p><div><p>아담 결혼 축하 드려요~! 너무 멋지시네요</p></div><p>2023-04-18</p></div><div id="comment-91"><p>제이드</p><div><p>아담 너무 행복해보여요!! </p><p>결혼 축하드립니다 이쁘고 행복하게 사세요🥹🎉🎉</p></div><p>2023-04-18</p></div><div id="comment-90"><p>맘 </p><div><p>아름다운 너무도 아름다운 내 아이들  </p></div><p>2023-04-18</p></div><div id="comment-89"><p>승연</p><div><p>나용 진심으로 축하해 행복길만 걷자💍🤍 ~~~ 행복하세요!!!</p></div><p>2023-04-15</p></div><div id="comment-88"><p>성미</p><div><p>김나아 결혼축하해🩷❤️ 귀엽고 행복하게 잘살아~~!🫶</p></div><p>2023-04-13</p></div><div id="comment-87"><p>혜린</p><div><p>세상제일예쁜 신부 나영이💝</p><p>너무 축하하고 행복해💗🌷💗</p></div><p>2023-04-13</p></div><div id="comment-86"><p>카일</p><div><p>학종이형 결혼 축하드려요! 두 분 너무 잘어울리세요 :) </p></div><p>2023-04-13</p></div><div id="comment-85"><p>라프</p><div><p>🎉🎉🎉🎉🎉🎉🤵👰🎉🎉🎉🎉🎉🎉</p></div><p>2023-04-13</p></div><div id="comment-84"><p>리오</p><div><p> 아담 결혼 축하드립니다. 행복하게 사세요.</p></div><p>2023-04-13</p></div><div id="comment-83"><p>지나가는동기형</p><div><p>학종이 멋지다~ 결혼 축하하고 앞날에 행복이 가득하길~!!</p></div><p>2023-04-13</p></div><div id="comment-82"><p>강준</p><div><p>나영아 결혼 축하해~~오래오래 행복하게 살아‼️</p></div><p>2023-04-12</p></div><div id="comment-80"><p>류미정</p><div><p>나영이랑 학종이오빠 결혼 너무너무 축하합니다~❤️ 둘이 행복하게 잘살아요!!!🌈❤️😍</p></div><p>2023-04-12</p></div><div id="comment-79"><p>예빈</p><div><p>너무 잘 어울리고 아름답다😍 넘 이쁜 나용아 잘 살아~~💕</p></div><p>2023-04-12</p></div><div id="comment-78"><p>예링</p><div><p>우리나용이 결혼 축하하고 예쁘고 행복하게 잘 살아👰🏻‍♀️❤️</p></div><p>2023-04-12</p></div><div id="comment-77"><p>휘은</p><div><p>나영아 결혼 축하해!!! 넘 잘 어울리고 멋찌다!!</p></div><p>2023-04-12</p></div><div id="comment-76"><p>성수</p><div><p>학종아 결혼 축하해~! 🎉🎉</p></div><p>2023-04-12</p></div><div id="comment-75"><p>기주</p><div><p>학종아 축하한다~~  신랑신부 사진 멋지다~~!!!</p></div><p>2023-04-12</p></div><div id="comment-74"><p>결혼축하합니다</p><div><p>신랑 멋지네요! 모바일 청첩장도 직접 만들고~ 능력 있네요ㅎㅎ</p></div><p>2023-04-12</p></div><div id="comment-73"><p>🤍</p><div><p>행복하세요 🤍🤍🤍</p></div><p>2023-04-12</p></div><div id="comment-72"><p>김다현</p><div><p>나용아 결혼 축하해&gt;_&lt;</p></div><p>2023-04-12</p></div><div id="comment-71"><p>혜지팍</p><div><p>보리 앙꼬와 함께 행복하세요 💚🤍</p></div><p>2023-04-12</p></div><div id="comment-70"><p>오혜림</p><div><p>결혼축하드립니다~~~~ 행복가득하길 바랍니다~</p></div><p>2023-04-11</p></div><div id="comment-69"><p>장지원</p><div><p>너무 이뿌다 나영아!!!❤️ 결혼식 너무 기대돼!! 행복하게 잘살거야!!  너무너무 축하해😻</p></div><p>2023-04-11</p></div><div id="comment-68"><p>상휘</p><div><p>결혼 축하해 나영아~!! 남편분도 너무 축하드려요!!</p></div><p>2023-04-11</p></div><div id="comment-67"><p>조준일</p><div><p>예쁜 사랑, 결혼 생활 하세요🙏🙏🫶🫶🫶🫶🫶🫶🫶</p></div><p>2023-04-11</p></div><div id="comment-66"><p>은자</p><div><p>나영아 결혼 축하하고 행복하게 살아💛</p></div><p>2023-04-11</p></div><div id="comment-65"><p>지원</p><div><p>나영아 결혼 축하해 ♡  사진 너무 예쁘다 !!! </p></div><p>2023-04-11</p></div><div id="comment-64"><p>이진영</p><div><p>너무 잘어울려요 행복하세욥~~~~!!</p></div><p>2023-04-11</p></div><div id="comment-63"><p>메쥬</p><div><p>나롱아 행복하게 잘 살아야행🤍💫➰💟</p></div><p>2023-04-11</p></div><div id="comment-62"><p>양혜지</p><div><p>결혼 다시한번 축하드리고 그날 정말 기대됩니다❤️❤️</p></div><p>2023-04-11</p></div><div id="comment-60"><p>손학종 김나영</p><div><p>안녕하세요</p></div><p>2023-04-11</p></div></div>
-            
-        </div>
-        
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=e3516116fa45668b4820a29ef98febcb"></script>
+				<img alt="사진 1" src="https://marriage-photo.s3.ap-northeast-2.amazonaws.com/images/gallery/01.jpg">
+				<!-- <img alt="사진 2" src="https://marriage-photo.s3.ap-northeast-2.amazonaws.com/images/gallery/02.jpg"> -->
+				<img alt="사진 2" src="https://marriage-photo.s3.ap-northeast-2.amazonaws.com/images/gallery/03.jpg">
+				<img alt="사진 3" src="https://marriage-photo.s3.ap-northeast-2.amazonaws.com/images/gallery/04.jpg">
+				<img alt="사진 4" src="https://marriage-photo.s3.ap-northeast-2.amazonaws.com/images/gallery/05.jpg">
+				<!-- <img alt="사진 6" src="https://marriage-photo.s3.ap-northeast-2.amazonaws.com/images/gallery/06.jpg"> -->
+				<img alt="사진 5" src="https://marriage-photo.s3.ap-northeast-2.amazonaws.com/images/gallery/07.jpg">
+				<img alt="사진 6" src="https://marriage-photo.s3.ap-northeast-2.amazonaws.com/images/gallery/08.jpg">
+				<img alt="사진 7" src="https://marriage-photo.s3.ap-northeast-2.amazonaws.com/images/gallery/09.jpg">
+				<img alt="사진 8" src="https://marriage-photo.s3.ap-northeast-2.amazonaws.com/images/gallery/10.jpg">
+				<img alt="사진 9" src="https://marriage-photo.s3.ap-northeast-2.amazonaws.com/images/gallery/11.jpg">
+				<!-- <img alt="사진 12" src="https://marriage-photo.s3.ap-northeast-2.amazonaws.com/images/gallery/12.jpg"> -->
+				<img alt="사진 10" src="https://marriage-photo.s3.ap-northeast-2.amazonaws.com/images/gallery/13.jpg">
+				<img alt="사진 11" src="https://marriage-photo.s3.ap-northeast-2.amazonaws.com/images/gallery/14.jpg">
+				
+			</div>
+		</div>
+		
+		<!-- <div class="div-line"></div> -->
+		
+		<div id="comment">
+			<div class="part-title text-center">
+				<p>방명록</p>
+				<p>COMMENT</p>
+			</div>
 
-        
+			<div id="comment-list"><div id="comment-119"><p>에이린</p><div><p>아담! 결혼 정말 축하해요~~ 언제나처럼 둘이서 힘든일도 즐거운일도 잘 해나가길 응원할께요! :)</p></div><p>2023-05-20</p></div><div id="comment-118"><p>문챈</p><div><p>우리 나용이 결혼도 생일도 너무 축하해 ❤️</p><p>너가 결국 제일 먼저 가는구나 !!!!!! 예쁜 모습으로 곧 보자 ❤️</p></div><p>2023-05-20</p></div><div id="comment-117"><p>메주</p><div><p>행복하자 나롱아~~ 유부로 이제 보내줄게💍</p></div><p>2023-05-20</p></div><div id="comment-116"><p>주형</p><div><p>결혼 너무너무 축하해 나영아 ❤️ 남편뷴이랑 행복한 신혼생활 즐기고 좋은 일만 가득해!!</p></div><p>2023-05-19</p></div><div id="comment-115"><p>미카</p><div><p>와 아담~! 결혼 진심으로 축하드려요! 두분에게 언제나 행복과 사랑이 가득하기를 기도합니다🙏🏻🌸</p></div><p>2023-05-17</p></div><div id="comment-114"><p>모아나</p><div><p>아담 결혼 진심으로 축하합니다 :) </p></div><p>2023-05-17</p></div><div id="comment-113"><p>닉</p><div><p>아담 결혼 축하해요!!! 행복한 결혼 생활 되기를! </p></div><p>2023-05-17</p></div><div id="comment-112"><p>디온</p><div><p>아담, 신부님 결혼 축하드려요! 행복하세요 :)</p></div><p>2023-05-17</p></div><div id="comment-111"><p>피터</p><div><p>아담 결혼 진심으로 축하드립니닷 ;D</p></div><p>2023-05-17</p></div><div id="comment-110"><p>제라드</p><div><p>결혼 진심으로 축하드립니다!</p></div><p>2023-05-17</p></div><div id="comment-109"><p>브랜든</p><div><p>진심으로 결혼 축하해요 아담!</p></div><p>2023-05-17</p></div><div id="comment-108"><p>제이크</p><div><p>결혼축하해요!!!!!!! 유부남의 세계로 오신걸 환영합니다!!!!</p></div><p>2023-05-17</p></div><div id="comment-107"><p>무키</p><div><p>압도적 축하를 통해 절대적 행복을 기원합니다. 🎊🎊🎊</p></div><p>2023-05-17</p></div><div id="comment-106"><p>쏘이</p><div><p>아담! 결혼축하해요! 행복한 부부 되시길☺️</p></div><p>2023-05-17</p></div><div id="comment-105"><p>테일러</p><div><p>결혼 축하드립니다.</p></div><p>2023-05-17</p></div><div id="comment-104"><p>좐</p><div><p>아담~! 결혼 정말 축하해요!! 행복하고 축복된 가정 이루시길 바래요 :)</p></div><p>2023-05-17</p></div><div id="comment-103"><p>초이</p><div><p>아담 결혼 축하해요!! 행복한 유부 생활하시길~!!! </p></div><p>2023-05-15</p></div><div id="comment-102"><p>제인</p><div><p>아담 결혼 너무너무 축하해요~!!</p></div><p>2023-05-15</p></div><div id="comment-101"><p>송지</p><div><p>너무 축하드려용🥰🥰 결혼식 때 뵈요</p></div><p>2023-05-14</p></div><div id="comment-100"><p>브리</p><div><p>케리 축하드립니다~!!</p></div><p>2023-05-12</p></div><div id="comment-99"><p>석철 손</p><div><p>행복하자</p></div><p>2023-05-10</p></div><div id="comment-98"><p>정우</p><div><p>부럽구만~~ 잘 살아라!</p></div><p>2023-05-08</p></div><div id="comment-97"><p>영준</p><div><p>결혼 축하해, 언제나 행복하길</p></div><p>2023-05-08</p></div><div id="comment-96"><p>대경</p><div><p>사진이 아주 잘나왔구만 ㅎㅎ 축하 축하 </p></div><p>2023-05-02</p></div><div id="comment-95"><p>섭구</p><div><p>나영 축하해. 행복하세요^_^ </p></div><p>2023-04-29</p></div><div id="comment-94"><p>서나</p><div><p>학종쓰 결혼 너무 축하해요!! 세상에서 제일 행복한 신랑 되ㅈㅏ! 예비 아내분과 모든 순간 순간 행복하시길 바래요! 결혼식에서 봬요🥰🥰</p></div><p>2023-04-21</p></div><div id="comment-93"><p>빠정용사</p><div><p>결혼 축하드립니다. 앞으로도 행복하세요. </p></div><p>2023-04-18</p></div><div id="comment-92"><p>케프</p><div><p>아담 결혼 축하 드려요~! 너무 멋지시네요</p></div><p>2023-04-18</p></div><div id="comment-91"><p>제이드</p><div><p>아담 너무 행복해보여요!! </p><p>결혼 축하드립니다 이쁘고 행복하게 사세요🥹🎉🎉</p></div><p>2023-04-18</p></div><div id="comment-90"><p>맘 </p><div><p>아름다운 너무도 아름다운 내 아이들  </p></div><p>2023-04-18</p></div><div id="comment-89"><p>승연</p><div><p>나용 진심으로 축하해 행복길만 걷자💍🤍 ~~~ 행복하세요!!!</p></div><p>2023-04-15</p></div><div id="comment-88"><p>성미</p><div><p>김나아 결혼축하해🩷❤️ 귀엽고 행복하게 잘살아~~!🫶</p></div><p>2023-04-13</p></div><div id="comment-87"><p>혜린</p><div><p>세상제일예쁜 신부 나영이💝</p><p>너무 축하하고 행복해💗🌷💗</p></div><p>2023-04-13</p></div><div id="comment-86"><p>카일</p><div><p>학종이형 결혼 축하드려요! 두 분 너무 잘어울리세요 :) </p></div><p>2023-04-13</p></div><div id="comment-85"><p>라프</p><div><p>🎉🎉🎉🎉🎉🎉🤵👰🎉🎉🎉🎉🎉🎉</p></div><p>2023-04-13</p></div><div id="comment-84"><p>리오</p><div><p> 아담 결혼 축하드립니다. 행복하게 사세요.</p></div><p>2023-04-13</p></div><div id="comment-83"><p>지나가는동기형</p><div><p>학종이 멋지다~ 결혼 축하하고 앞날에 행복이 가득하길~!!</p></div><p>2023-04-13</p></div><div id="comment-82"><p>강준</p><div><p>나영아 결혼 축하해~~오래오래 행복하게 살아‼️</p></div><p>2023-04-12</p></div><div id="comment-80"><p>류미정</p><div><p>나영이랑 학종이오빠 결혼 너무너무 축하합니다~❤️ 둘이 행복하게 잘살아요!!!🌈❤️😍</p></div><p>2023-04-12</p></div><div id="comment-79"><p>예빈</p><div><p>너무 잘 어울리고 아름답다😍 넘 이쁜 나용아 잘 살아~~💕</p></div><p>2023-04-12</p></div><div id="comment-78"><p>예링</p><div><p>우리나용이 결혼 축하하고 예쁘고 행복하게 잘 살아👰🏻‍♀️❤️</p></div><p>2023-04-12</p></div><div id="comment-77"><p>휘은</p><div><p>나영아 결혼 축하해!!! 넘 잘 어울리고 멋찌다!!</p></div><p>2023-04-12</p></div><div id="comment-76"><p>성수</p><div><p>학종아 결혼 축하해~! 🎉🎉</p></div><p>2023-04-12</p></div><div id="comment-75"><p>기주</p><div><p>학종아 축하한다~~  신랑신부 사진 멋지다~~!!!</p></div><p>2023-04-12</p></div><div id="comment-74"><p>결혼축하합니다</p><div><p>신랑 멋지네요! 모바일 청첩장도 직접 만들고~ 능력 있네요ㅎㅎ</p></div><p>2023-04-12</p></div><div id="comment-73"><p>🤍</p><div><p>행복하세요 🤍🤍🤍</p></div><p>2023-04-12</p></div><div id="comment-72"><p>김다현</p><div><p>나용아 결혼 축하해&gt;_&lt;</p></div><p>2023-04-12</p></div><div id="comment-71"><p>혜지팍</p><div><p>보리 앙꼬와 함께 행복하세요 💚🤍</p></div><p>2023-04-12</p></div><div id="comment-70"><p>오혜림</p><div><p>결혼축하드립니다~~~~ 행복가득하길 바랍니다~</p></div><p>2023-04-11</p></div><div id="comment-69"><p>장지원</p><div><p>너무 이뿌다 나영아!!!❤️ 결혼식 너무 기대돼!! 행복하게 잘살거야!!  너무너무 축하해😻</p></div><p>2023-04-11</p></div><div id="comment-68"><p>상휘</p><div><p>결혼 축하해 나영아~!! 남편분도 너무 축하드려요!!</p></div><p>2023-04-11</p></div><div id="comment-67"><p>조준일</p><div><p>예쁜 사랑, 결혼 생활 하세요🙏🙏🫶🫶🫶🫶🫶🫶🫶</p></div><p>2023-04-11</p></div><div id="comment-66"><p>은자</p><div><p>나영아 결혼 축하하고 행복하게 살아💛</p></div><p>2023-04-11</p></div><div id="comment-65"><p>지원</p><div><p>나영아 결혼 축하해 ♡  사진 너무 예쁘다 !!! </p></div><p>2023-04-11</p></div><div id="comment-64"><p>이진영</p><div><p>너무 잘어울려요 행복하세욥~~~~!!</p></div><p>2023-04-11</p></div><div id="comment-63"><p>메쥬</p><div><p>나롱아 행복하게 잘 살아야행🤍💫➰💟</p></div><p>2023-04-11</p></div><div id="comment-62"><p>양혜지</p><div><p>결혼 다시한번 축하드리고 그날 정말 기대됩니다❤️❤️</p></div><p>2023-04-11</p></div><div id="comment-60"><p>손학종 김나영</p><div><p>안녕하세요</p></div><p>2023-04-11</p></div></div>
+			
+		</div>
+		
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=e3516116fa45668b4820a29ef98febcb"></script>
 
-        <!-- 카카오맵 -->
-        <script>
-            var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
-            mapOption = { 
-                center: new kakao.maps.LatLng(37.34004707818542, 127.10666518319127), // 지도의 중심좌표
-                level: 4 // 지도의 확대 레벨
-            };
+		
 
-            // 지도를 표시할 div와  지도 옵션으로  지도를 생성합니다
-            var map = new kakao.maps.Map(mapContainer, mapOption); 
+		<!-- 카카오맵 -->
+		<script>
+			var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
+			mapOption = { 
+				center: new kakao.maps.LatLng(37.34004707818542, 127.10666518319127), // 지도의 중심좌표
+				level: 4 // 지도의 확대 레벨
+			};
+
+			// 지도를 표시할 div와  지도 옵션으로  지도를 생성합니다
+			var map = new kakao.maps.Map(mapContainer, mapOption); 
 
 
-            // 지도 확대, 축소 컨트롤에서 확대 버튼을 누르면 호출되어 지도를 확대하는 함수입니다
-            function zoomIn() {
-                map.setLevel(map.getLevel() - 1);
-            }
+			// 지도 확대, 축소 컨트롤에서 확대 버튼을 누르면 호출되어 지도를 확대하는 함수입니다
+			function zoomIn() {
+				map.setLevel(map.getLevel() - 1);
+			}
 
-            // 지도 확대, 축소 컨트롤에서 축소 버튼을 누르면 호출되어 지도를 확대하는 함수입니다
-            function zoomOut() {
-                map.setLevel(map.getLevel() + 1);
-            }
+			// 지도 확대, 축소 컨트롤에서 축소 버튼을 누르면 호출되어 지도를 확대하는 함수입니다
+			function zoomOut() {
+				map.setLevel(map.getLevel() + 1);
+			}
 
-            // 마커가 표시될 위치입니다 
-            var markerPosition  = new kakao.maps.LatLng(37.34004707818542, 127.10666518319127); 
+			// 마커가 표시될 위치입니다 
+			var markerPosition  = new kakao.maps.LatLng(37.34004707818542, 127.10666518319127); 
 
-            // 마커를 생성합니다
-            var marker = new kakao.maps.Marker({
-                position: markerPosition
-            });
+			// 마커를 생성합니다
+			var marker = new kakao.maps.Marker({
+				position: markerPosition
+			});
 
-            // 마커가 지도 위에 표시되도록 설정합니다
-            marker.setMap(map);
-        </script>
+			// 마커가 지도 위에 표시되도록 설정합니다
+			marker.setMap(map);
+		</script>
 
-        <!-- 사진 갤러리 -->
-        <script>
-            jQuery(document).ready(function(){
-                jQuery("#gallery").unitegallery({
-                    // gallery_theme: "tiles"
-                });
-            });
-        </script>
+		<!-- 사진 갤러리 -->
+		<script>
+			jQuery(document).ready(function(){
+				jQuery("#gallery").unitegallery({
+					// gallery_theme: "tiles"
+				});
+			});
+		</script>
 
-        <script>
-            function copy_to_clipboard(text) {
-                const t = document.createElement("textarea");
-                document.body.appendChild(t);
-                t.value = text;
-                t.select();
-                document.execCommand('copy');
-                document.body.removeChild(t);
-                alert('복사되었습니다.')
-            }
-        </script>
+		<script>
+			function copy_to_clipboard(text) {
+				const t = document.createElement("textarea");
+				document.body.appendChild(t);
+				t.value = text;
+				t.select();
+				document.execCommand('copy');
+				document.body.removeChild(t);
+				alert('복사되었습니다.')
+			}
+		</script>
 
-        <!-- 댓글 -->
-        <script>
-            var commentPage = 1;
-            var isCommentInProgress = false;
-            var isCommentLast = false;
-            function leftPad(value) {
-                if (value >= 10) {
-                    return value;
-                }
+		<!-- 댓글 -->
+		<script>
+			var commentPage = 1;
+			var isCommentInProgress = false;
+			var isCommentLast = false;
+			function leftPad(value) {
+				if (value >= 10) {
+					return value;
+				}
 
-                return `0${value}`;
-            }
+				return `0${value}`;
+			}
 
-            function utcToKst(utcStr) {
+			function utcToKst(utcStr) {
 
-                console.log(utcStr)
-                var d = new Date(utcStr) 
-            
-                console.log(d)
+				console.log(utcStr)
+				var d = new Date(utcStr) 
+			
+				console.log(d)
 
-                const year = d.getFullYear();
-                const month = leftPad(d.getMonth() + 1);
-                const day = leftPad(d.getDate());
+				const year = d.getFullYear();
+				const month = leftPad(d.getMonth() + 1);
+				const day = leftPad(d.getDate());
 
-                return [year, month, day].join('-');
-            }
+				return [year, month, day].join('-');
+			}
 
-            function moreComment() {
-                if (isCommentLast || isCommentInProgress) return;
-                commentInProgress = true;
-                $('#btn-more-comment').css('display', 'none')
+			function moreComment() {
+				if (isCommentLast || isCommentInProgress) return;
+				commentInProgress = true;
+				$('#btn-more-comment').css('display', 'none')
 
-                $.ajax({
-                    url: 'https://vyrn5vg1bc.execute-api.ap-northeast-2.amazonaws.com/default/marriage-comment-get?page=' + commentPage,
-                    type: 'GET',
-                    dataType: 'json',
-                    headers: {
-                        Authorization: 'Bearer 94428b12-2658-4893-8d1c-232986595ff1'
-                    },
-                    success: function(res) { 
-                        console.log(res)
-                        if (res.length == 0) {
-                            isCommentLast = true;
-                            $('#btn-more-comment').css('display', 'none')
-                            return;
-                        }
-                        for (const r in res) {
-                            $('#comment-list').append('<div id="comment-' + res[r].number +'"><p></p><div></div><p></p>')
-                            $('#comment-' + res[r].number + ' > p:nth-child(1)').text(res[r].author)
-                            for (const line of res[r].body.split('\n')) {
-                                $('#comment-' + res[r].number + ' > div:nth-child(2)').append('<p></p>')
-                                console.log(line)
-                                $('#comment-' + res[r].number + ' > div:nth-child(2) > p:last-child').text(line) 
-                            }
-                            $('#comment-' + res[r].number + ' > p:nth-child(3)').text(utcToKst(res[r].created_at))
-                            console.log(res[r])
-                        }
-                        commentPage += 1;
-                        isCommentInProgress = false;
-                        $('#btn-more-comment').css('display', 'show')
-                    }
-                });
-            }
-            jQuery(document).ready(function(){
-                moreComment();
-            });
+				$.ajax({
+					url: 'https://vyrn5vg1bc.execute-api.ap-northeast-2.amazonaws.com/default/marriage-comment-get?page=' + commentPage,
+					type: 'GET',
+					dataType: 'json',
+					headers: {
+						Authorization: 'Bearer 94428b12-2658-4893-8d1c-232986595ff1'
+					},
+					success: function(res) { 
+						console.log(res)
+						if (res.length == 0) {
+							isCommentLast = true;
+							$('#btn-more-comment').css('display', 'none')
+							return;
+						}
+						for (const r in res) {
+							$('#comment-list').append('<div id="comment-' + res[r].number +'"><p></p><div></div><p></p>')
+							$('#comment-' + res[r].number + ' > p:nth-child(1)').text(res[r].author)
+							for (const line of res[r].body.split('\n')) {
+								$('#comment-' + res[r].number + ' > div:nth-child(2)').append('<p></p>')
+								console.log(line)
+								$('#comment-' + res[r].number + ' > div:nth-child(2) > p:last-child').text(line) 
+							}
+							$('#comment-' + res[r].number + ' > p:nth-child(3)').text(utcToKst(res[r].created_at))
+							console.log(res[r])
+						}
+						commentPage += 1;
+						isCommentInProgress = false;
+						$('#btn-more-comment').css('display', 'show')
+					}
+				});
+			}
+			jQuery(document).ready(function(){
+				moreComment();
+			});
 
-            function writeComment() {
-                if (isCommentInProgress) return;
-                isCommentInProgress = true;
-                $('#btn-write-comment').css('display', 'none')
+			function writeComment() {
+				if (isCommentInProgress) return;
+				isCommentInProgress = true;
+				$('#btn-write-comment').css('display', 'none')
 
-                if ($('#comment-author').val().length == 0 || $('#comment-body').val().length == 0) {
-                    alert('내용을 입력해 주세요.')
-                    isCommentInProgress = false;
-                    $('#btn-write-comment').css('display', 'show')
-                    reutrn;
-                }
-		    
+				if ($('#comment-author').val().length == 0 || $('#comment-body').val().length == 0) {
+					alert('내용을 입력해 주세요.')
+					isCommentInProgress = false;
+					$('#btn-write-comment').css('display', 'show')
+					reutrn;
+				}
+			
 		if (!confirm('방명록을 작성할까요?')) {
-		    isCommentInProgress = false;
-                    $('#btn-write-comment').css('display', 'show')
-                    reutrn;
+			isCommentInProgress = false;
+					$('#btn-write-comment').css('display', 'show')
+					reutrn;
 		}
-                $.ajax({
-                    url: 'https://vyrn5vg1bc.execute-api.ap-northeast-2.amazonaws.com/default/marriage-comment-get',
-                    type: 'POST',
-                    dataType: 'json',
-                    headers: {
-                        Authorization: 'Bearer 94428b12-2658-4893-8d1c-232986595ff1'
-                    },
-                    data: JSON.stringify({
-                        "author": $('#comment-author').val(),
-                        "body": $('#comment-body').val()
-                    }),
-                    success: function(res) {
-                        alert('작성했습니다.')
-                        isCommentInProgress = false;
-                        isCommentLast = false;
-                        $('#btn-write-comment').css('display', 'show')
-                        commentPage = 1;
-                        $('#comment-author').val('')
-                        $('#comment-body').val('')
-                        $('#comment-list').empty()
-                        moreComment();
-                    }
-                });
-            }
-        </script>
-    </div>
-  </body>
+				$.ajax({
+					url: 'https://vyrn5vg1bc.execute-api.ap-northeast-2.amazonaws.com/default/marriage-comment-get',
+					type: 'POST',
+					dataType: 'json',
+					headers: {
+						Authorization: 'Bearer 94428b12-2658-4893-8d1c-232986595ff1'
+					},
+					data: JSON.stringify({
+						"author": $('#comment-author').val(),
+						"body": $('#comment-body').val()
+					}),
+					success: function(res) {
+						alert('작성했습니다.')
+						isCommentInProgress = false;
+						isCommentLast = false;
+						$('#btn-write-comment').css('display', 'show')
+						commentPage = 1;
+						$('#comment-author').val('')
+						$('#comment-body').val('')
+						$('#comment-list').empty()
+						moreComment();
+					}
+				});
+			}
+		</script>
+	</div>
+</body>
 </html>
